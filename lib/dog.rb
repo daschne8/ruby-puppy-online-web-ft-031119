@@ -7,7 +7,7 @@ class Dog
     @all << self
   end
   def clear_all
-    @all = []
+    @@all = []
   end
   def self.all
     @@all.each{|dog| puts dog.name}
