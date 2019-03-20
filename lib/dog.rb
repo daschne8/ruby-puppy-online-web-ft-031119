@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
   attr_accessor :name
   attr_reader
@@ -14,3 +15,4 @@ class Dog
   end
 
 end
+binding.pry
