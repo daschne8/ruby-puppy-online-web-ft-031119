@@ -16,7 +16,7 @@ class Dog
 
 end
 doggos = []
-["pepper","ruby","sugar"].each do |name|
-  doggos << Dog.new(name)
-end
+# ["pepper","ruby","sugar"].each do |name|
+#   doggos << Dog.new(name)
+# end
 binding.pry
