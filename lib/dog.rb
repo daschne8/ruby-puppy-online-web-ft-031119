@@ -6,7 +6,7 @@ class Dog
     @name = name
     @all << self
   end
-  def clear_all
+  def self.clear_all
     @@all = []
   end
   def self.all
